@@ -2,7 +2,7 @@ services:
   - type: web
     name: filmlog-api
     runtime: docker
-    rootDir: "미션 18/backend"
+    rootDir: "backend"
     dockerfilePath: ./Dockerfile
     dockerContext: .
     healthCheckPath: /health
