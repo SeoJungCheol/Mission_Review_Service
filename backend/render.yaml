@@ -3,7 +3,7 @@ services:
     name: filmlog-api
     runtime: docker
     plan: free
-    rootDir: .
+    rootDir: backend
     dockerfilePath: ./Dockerfile
     dockerContext: .
     healthCheckPath: /health
